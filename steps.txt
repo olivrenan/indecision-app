@@ -1,0 +1,39 @@
+﻿Dentro da pasta C:\Users\Renan\Documents\Renan\JavaScript\Curso_React\react-course-projects\indecision-app :
+
+	instalando/setting up configs (more info: package.json ---> "dependencies")
+	
+		> node.js & yarn
+		
+		> babel : "npm install babel-cli@6.24.1"
+				  "yarn init"
+				  "yarn add babel-preset-react@6.24.1 babel-preset-env@1.5.2"
+				  
+		> webpack
+		
+		> babel-core : babel with webpack
+		
+		> webpack dev server
+		
+		> react dev tools (google chrome extension)
+		
+		> source maps with webpack
+		
+		> react-modal
+
+	Agora os comandos estão no arquivo package.json em "scripts":
+		
+		> yarn run build : "build" ---> "webpack" (dentro do arquivo webpack.config.js estão as especificações do arquivo de entry e arquivo de output)
+		
+		> yarn run dev-server
+		
+	Styling React:
+	
+		> yarn add css-loader
+		
+		> yarn add style-loader
+		
+		> yarn add sass-loader : import sass files
+		
+		> yarn add node-sass : igual ao babel com jsx/js, transforma scss em css
+
+		> yarn add normalize.css@7.0.0 : reset das configurações padrão dos navegadores para evitar problemas com o style da sua página
